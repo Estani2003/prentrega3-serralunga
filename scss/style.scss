@@ -1,0 +1,29 @@
+
+@import"utilities/_variables.scss";
+
+/* elementos base*/
+@import"base/_typo.scss";
+@import"base/_reset.scss";
+
+/*elemntos layout*/
+@import"layout/_body.scss";
+@import"layout/_header.scss";
+@import"layout/_main.scss";
+@import"layout/_footer.scss";
+/*elemntos components*/
+@import"components/_bootstrap.scss";
+
+/*elementos media query*/
+@import"layout/media/media1024";
+@import"layout/media/media768";
+@import"layout/media/media425";
+@import"layout/media/media375";
+@import"layout/media/media320";
+
+
+
+
+
+
+
+

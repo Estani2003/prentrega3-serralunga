@@ -1,0 +1,80 @@
+.nuestras-marcas{
+    background-color:#707070;
+    padding: 20px;
+    
+    
+}
+.nuestras-marcas{
+    text-align: center;
+    background-color:gray ;
+}
+
+.container-main .div-main{
+    background-color:#6096B4;
+    text-align: center;
+}
+.div-main img{
+    width:90%;
+    height: 500px;
+}
+main{
+    background-color: #6096B4;
+}
+h2{
+    
+    text-align: center;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    min-height: 100vh;}
+
+    .container-img .galeria{
+        display: grid;
+        grid-template-columns:270px 270px 270px;
+        grid-template-rows: 270px 270px 270px;
+        gap: 1rem;}
+        .container-img .galeria img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+    .container-img .galeria .img-1{
+        
+        grid-column: 1/3;
+    }
+    .container-img .galeria .img-2{
+        grid-row: 2/4;
+    }
+    .container-img .galeria .img-6{
+    grid-column: 2/4;
+    }
+    .main-cuarto{
+        text-align: center;
+        height: 400px;
+        font-size: 20px;
+    }
+    .formulario p{
+        margin-top: 15px;
+    }
+    h1:hover{
+        transform: scale(1.1);
+        color: $color-secundario;
+    }
+
+    .img-contactanos{
+        text-align: center;
+    }
+    .img-contactanos img{
+        width: 90%;
+        height: 400px;
+        
+    }
+    .section-contactanos{
+        text-align: center;
+    }
+    
+    

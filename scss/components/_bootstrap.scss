@@ -1,0 +1,12 @@
+.main{
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+}
+.card-body{
+    background-color: $bg-principal;
+}
