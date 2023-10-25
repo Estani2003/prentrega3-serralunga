@@ -101,9 +101,8 @@ body{
             font-size: 20px;
             }
             .redes-sociales{
-                margin-top: 45px;
+            margin-top: 45px;
             font-size: 30px;
-            
             display: flex;
             justify-content: center;
             gap: 30px;

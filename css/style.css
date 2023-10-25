@@ -20,8 +20,8 @@ body {
   justify-content: center;
   align-items: center;
   height: auto;
-  padding: 5px 10%;
-  border: solid black; }
+  border: solid black;
+  padding: 5px 10%; }
 
 .header .logo {
   cursor: pointer; }
@@ -30,9 +30,8 @@ body {
   height: 70px;
   width: auto;
   transition: all 0.3s; }
-
-.header .logo img:hover {
-  transform: scale(1.2); }
+  .header .logo img:hover {
+    transform: scale(1.2); }
 
 .header .nav-links {
   list-style: none; }
@@ -40,18 +39,16 @@ body {
 .header .nav-links li {
   display: inline-block;
   padding: 0% 20px; }
-
-.header .nav-links li:hover {
-  transform: scale(1.1); }
+  .header .nav-links li:hover {
+    transform: scale(1.1); }
 
 .header .nav-links a {
   font-size: 17px;
   color: black;
   text-decoration: none; }
-
-.header .nav-links a:hover {
-  color: white;
-  transform: scale(1.1); }
+  .header .nav-links a:hover {
+    color: white;
+    transform: scale(1.1); }
 
 .nuestras-marcas {
   background-color: #707070;
