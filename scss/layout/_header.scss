@@ -1,13 +1,11 @@
+@import "../utilities/mixins";
 .header{
-background-color:$bg-principal;
-display: flex;
-justify-content: center;
-align-items: center;
-height: auto;
-border: solid black;
-padding: 5px 10%
-
-}
+    background-color:$bg-principal;
+    @include flex();
+    height: auto;
+    border: solid black;
+    padding: 5px 10%
+}    
 .header .logo{
 cursor: pointer;
     }

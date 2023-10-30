@@ -1,3 +1,4 @@
+@import "../utilities/mixins";
 footer{
     width: 100vw;
     height: auto;
@@ -11,13 +12,10 @@ font-size: 20px;
 .redes-sociales{
 margin-top: 45px;
 font-size: 30px;
-display: flex;
-justify-content: center;
-gap: 30px;
+@include flex2();
+
 }
 .copy{
     margin-top: 70px;
     text-align: center;
 }
-
-
