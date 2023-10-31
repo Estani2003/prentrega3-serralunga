@@ -7,4 +7,11 @@
         justify-content: center;
         
     }
+    .container-img .galeria{
+        display: none;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        
+    }
 }
