@@ -4,15 +4,18 @@
     
     
 }
-.nuestras-marcas{
+.nuestras-marcas2{
     text-align: center;
     background-color:#6096B4 ;
+    
+}
+.container-main .div-main{
+    @extend .nuestras-marcas2;
+    text-align: center;
+    background-color: #6096B4;
 }
 
-.container-main .div-main{
-    background-color:#6096B4;
-    text-align: center;
-}
+
 .div-main img{
     width:90%;
     height: 500px;
@@ -50,8 +53,10 @@ h2{
         grid-row: 2/4;
     }
     .container-img .galeria .img-6{
-    grid-column: 2/4;
-    }
+        grid-column: 2/4;
+        }
+    
+    
     .main-cuarto{
         text-align: center;
         height: 400px;
@@ -68,11 +73,13 @@ h2{
     .img-contactanos{
         text-align: center;
     }
+    
     .img-contactanos img{
         width: 90%;
         height: 400px;
         
     }
+
     .section-contactanos{
         text-align: center;
     }
